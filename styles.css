@@ -16,6 +16,32 @@ body {
 input, textarea {
     width: 100%;
     padding: 10px;
+    margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+ button {
+    margin: 0 auto;
+}
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    font-weight: bold;
+    background-color: #a16fb1;
+    color: #f9efef;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button {
+    display: flex;
+}
+label {
+    padding: 15px 0;
 }
